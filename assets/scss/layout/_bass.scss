@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $neutral-900;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: $neutral-900;
+}
+
+.container {
+    max-width: 1296px;
+    margin: auto;
+
+    @media (max-width: 576px) {
+        max-width: 375px;
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mr-48 {
+    margin-right: 48px;
+}
+
+.pdy-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pd-12 {
+    padding: 12px;
+}
+
+.pdx-12 {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}

@@ -3,9 +3,6 @@
 
 }
 
-.minw-174 {
-  min-width: 174px;
-}
 
 .icon {
   font-size: 24px;
@@ -17,11 +14,4 @@
     padding: 0;
     margin-right: -48px;
   }
-}
-
-.d-none {
-  @media (max-width:576px) {
-    display: none;
-  }
-
 }

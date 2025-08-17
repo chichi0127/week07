@@ -25,6 +25,10 @@ a {
     color: $neutral-900;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1296px;
     margin: auto;
@@ -50,6 +54,10 @@ a {
     justify-content: space-between;
 }
 
+.tac {
+    text-align: center;
+}
+
 .f-wrap {
     flex-wrap: wrap;
 }
@@ -70,17 +78,38 @@ a {
     margin-bottom: 12px;
 }
 
+.mb-4 {
+    margin-bottom: 4px;
+}
+
 .mb-24 {
     margin-bottom: 24px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
 }
 
 .mb-16 {
     margin-bottom: 16px;
 }
 
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
 .pdx-8 {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.pdx-4 {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .pdy-8 {
@@ -106,8 +135,16 @@ a {
     padding-top: 48px;
 }
 
+.pr-12 {
+    padding-right: 12px;
+}
+
 .pr-24 {
     padding-right: 24px;
+}
+
+.pl-12 {
+    padding-left: 12px;
 }
 
 .d-none {
@@ -132,6 +169,13 @@ a {
         font-weight: 700;
     }
 
+    &-400 {
+        font-weight: 400;
+    }
+
+    &-500 {
+        font-weight: 500;
+    }
 }
 
 .fsz {
@@ -139,4 +183,44 @@ a {
         font-size: 28px;
     }
 
+    &-16 {
+        font-size: 16px;
+    }
+
+    &-32 {
+        font-size: 32px;
+    }
+
+    &-14 {
+        font-size: 14px;
+    }
+}
+
+.no-cursor {
+    cursor: default;
+}
+
+
+.color {
+    &-neutral600 {
+        color: $neutral-600;
+    }
+
+    &-netural500 {
+        color: $neutral-500;
+    }
+
+    &-sign {
+        color: #D74F4F;
+    }
+}
+
+.h {
+    &-primary400:hover {
+        color: $primary-400;
+    }
+
+    &-bg-neutral200:hover {
+        background-color: $neutral-200;
+    }
 }

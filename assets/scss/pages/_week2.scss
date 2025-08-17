@@ -14,15 +14,6 @@
     max-width: 195px;
 }
 
-.color {
-    &-neutral600 {
-        color: $neutral-600;
-    }
-
-    &-netural500 {
-        color: $neutral-500;
-    }
-}
 
 .bg {
     &-primary300 {
@@ -31,15 +22,7 @@
 
 }
 
-.h {
-    &-primary400:hover {
-        color: $primary-400;
-    }
 
-    &-bg-neutral200:hover {
-        background-color: $neutral-200;
-    }
-}
 
 .w {
     &-196 {

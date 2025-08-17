@@ -1,12 +1,22 @@
-.container-1296-my64 {
-    max-width: 1296px;
-    margin: 64px auto;
-    padding-left: 12px;
-    padding-right: 12px;
+.container {
+    &-1296 {
+        &-my64 {
+            max-width: 1296px;
+            margin: 64px auto;
+            padding-left: 12px;
+            padding-right: 12px;
 
-    @media (max-width: 576px) {
-        max-width: 375px;
-        margin: 16px 12px;
+            @media (max-width: 576px) {
+                max-width: 375px;
+                margin: 16px 12px;
+            }
+        }
+
+        &-my48 {
+            max-width: 1296px;
+            margin: 48px auto;
+        }
+
     }
 }
 
@@ -33,12 +43,25 @@
             width: 259px;
             padding-left: 4px;
             padding-right: 4px;
+
+            @media(max-width:576px) {
+                width: 295px;
+                padding-left: 0;
+                padding-right: 8px;
+            }
         }
 
         &-5 {
             width: 25%;
             padding-left: 12px;
             padding-right: 12px;
+
+            @media(max-width:576px) {
+                min-width: 316px;
+                padding-left: 8px;
+                padding-right: 8px;
+
+            }
         }
     }
 
@@ -50,6 +73,11 @@
     width: 57%;
     margin-right: -4px;
     margin-left: -4px;
+
+    @media(max-width:576px) {
+        width: 100%;
+
+    }
 }
 
 .aside-w {
@@ -98,9 +126,15 @@
         color: $neutral-0;
         padding: 12px 24px;
 
+
         &:hover {
             background-color: $neutral-700;
             color: $neutral-0;
+        }
+
+        @media(max-width:576px) {
+
+            padding: $spacing-s $spacing-l;
         }
     }
 
@@ -112,9 +146,15 @@
         display: inline-block;
         padding: 2px 0;
         padding-right: 8px;
+
+
     }
 
 
+}
+
+.vam {
+    vertical-align: middle;
 }
 
 
@@ -146,4 +186,36 @@
 .borderline-2-2 {
     border-bottom: 1px solid $neutral-300;
     padding: 12px 0;
+}
+
+@media(max-width:576px) {
+    .sm {
+        &-f-wrap {
+            flex-wrap: wrap;
+        }
+
+        &-fsz {
+            &-24 {
+                font-size: 24px;
+            }
+
+            &-16 {
+                font-size: 16px;
+            }
+
+            &-20 {
+                font-size: 20px;
+            }
+        }
+
+        &-w-351 {
+            max-width: 351px;
+        }
+
+        &-overflow-x {
+            overflow-x: auto;
+        }
+
+
+    }
 }

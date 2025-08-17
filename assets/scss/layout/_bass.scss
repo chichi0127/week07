@@ -194,6 +194,10 @@ button {
     &-14 {
         font-size: 14px;
     }
+
+    &-24 {
+        font-size: 24px;
+    }
 }
 
 .no-cursor {
@@ -222,5 +226,11 @@ button {
 
     &-bg-neutral200:hover {
         background-color: $neutral-200;
+    }
+}
+
+.lh {
+    &-12 {
+        line-height: 1.2;
     }
 }

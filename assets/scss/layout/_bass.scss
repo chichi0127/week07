@@ -13,6 +13,7 @@ img {
 body {
     font-family: "Noto Sans TC", sans-serif;
     letter-spacing: 0.05em;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: $neutral-900;
@@ -47,6 +48,10 @@ a {
 
 .jcsb {
     justify-content: space-between;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
 }
 
 .mt-32 {
@@ -101,6 +106,10 @@ a {
     padding-top: 48px;
 }
 
+.pr-24 {
+    padding-right: 24px;
+}
+
 .d-none {
     @media (max-width:576px) {
         display: none;
@@ -116,4 +125,18 @@ a {
     @media (min-width:576px) {
         display: none;
     }
+}
+
+.fw {
+    &-700 {
+        font-weight: 700;
+    }
+
+}
+
+.fsz {
+    &-28 {
+        font-size: 28px;
+    }
+
 }

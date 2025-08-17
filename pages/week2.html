@@ -5,40 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>產品列表頁 </title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="week2.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <%- include('./layout/link'); -%>
 </head>
 
 <body>
     <%- include('./layout/header'); -%>
 
-        <div class="container2">
+        <div class="container-1296">
             <nav>
-                <ul class="list2 d-flex jcsb aic mb-1">
-                    <li><a href="#" class="navcolor green">首頁</a></li>
-                    <li class="navcolor">/</li>
+                <ul class="maxw-195 d-flex jcsb aic mb-24">
+                    <li><a href="index.html" class="color-neutral600 h-primary400">首頁</a></li>
+                    <li class="color-neutral600">/</li>
+                    <li class="color-neutral600 h-primary400">女鞋</li>
+                    <li class="color-neutral600">/</li>
                     <li>所有商品</li>
                 </ul>
             </nav>
-            <h1 class="mb-1">所有商品</h1>
-            <main>
-                <aside>
+            <h1 class="mb-24 fw-700 fsz-28">女鞋</h1>
+            <main class="d-flex jcsb sm-jcc">
+                <aside class="w-196 pr-24 d-none">
                     <ul>
-                        <li><a href="#" class="pd-3 title mb-2">所有商品</a></li>
-                        <li><a href="#" class="pd-3 green mb-2">慢跑鞋</a></li>
-                        <li><a href="#" class="pd-3 green mb-2">滑板鞋</a></li>
-                        <li><a href="#" class="pd-3 green mb-2">厚底鞋</a></li>
-                        <li><a href="#" class="pd-3 green">限定 / 聯名企劃</a></li>
+                        <li><a href="#" class="pdy-8 title mb-16">所有商品</a></li>
+                        <li><a href="#" class="pdy-8 h-primary400 mb-16">慢跑鞋</a></li>
+                        <li><a href="#" class="pdy-8 h-primary400 mb-16">滑板鞋</a></li>
+                        <li><a href="#" class="pdy-8 h-primary400 mb-16">厚底鞋</a></li>
+                        <li><a href="#" class="pdy-8 h-primary400">限定 / 聯名企劃</a></li>
                     </ul>
                 </aside>
-                <section>
-                    <div class="content d-flex f-wrap jcsb">
+                <section class="w-83 sm-w-100 sm-m-auto">
+                    <div class="d-flex f-wrap jcsb mx-12">
                         <div class="col">
                             <div class="card">
                                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true"
@@ -111,17 +106,24 @@
                                 <p>NT$4,000</p>
                             </div>
                         </div>
-
+                        <div class="col d-unnone">
+                            <div class="card">
+                                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-9.png?raw=true"
+                                    alt="shoes10">
+                                <h3>Buttermood</h3>
+                                <p>NT$4,000</p>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <ul class="nav-list d-flex jcsb aic">
-                            <li><a href="#" class="grey-1"><i class="bi bi-chevron-left"></i></a></li>
-                            <li><a href="#" class="bg-green">1</a></li>
-                            <li><a href="#" class="bg-greyhover">2</a></li>
-                            <li><a href="#" class="bg-greyhover">3</a></li>
-                            <li><a href="#" class="bg-greyhover">...</a></li>
-                            <li><a href="#" class="bg-greyhover">10</a></li>
-                            <li><a href="#" class="green"><i class="bi bi-chevron-right"></i></a></li>
+                            <li><a href="#" class="color-netural500"><i class="bi bi-chevron-left"></i></a></li>
+                            <li><a href="#" class="bg-primary300">1</a></li>
+                            <li><a href="#" class="h-bg-neutral200">2</a></li>
+                            <li><a href="#" class="h-bg-neutral200">3</a></li>
+                            <li><a href="#" class="h-bg-neutral200">...</a></li>
+                            <li><a href="#" class="h-bg-neutral200">10</a></li>
+                            <li><a href="#" class="h-primary400 "><i class="bi bi-chevron-right"></i></a></li>
                         </ul>
                     </div>
                 </section>

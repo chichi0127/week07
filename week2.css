@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+    display: block;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 16px auto;
+}
+
+.container2 {
+    max-width: 1296px;
+    margin: 32px auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.mr {
+    margin-right: auto;
+}
+
+.mr-1 {
+    margin-right: 48px;
+}
+
+.aic {
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.list {
+    min-width: 174px;
+}
+
+.list2 {
+    max-width: 131px;
+}
+
+.pd-1 {
+    padding: 8px 12px;
+}
+
+.pd-2 {
+    padding: 12px;
+}
+
+.pd-3 {
+    padding: 8px 0;
+}
+
+.logowd {
+    width: 129px;
+}
+
+.navcolor {
+    color: #6C757D;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.mb-1 {
+    margin-bottom: 24px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.green:hover {
+    color: #57A203;
+}
+
+.grey:hover {
+    color: #ADB5BD;
+}
+
+.grey-1 {
+    color: #ADB5BD;
+}
+
+.bg-green {
+    background-color: #C0FA73;
+}
+
+.bg-greyhover:hover {
+    background-color: #E9ECEF;
+}
+
+.title {
+    color: #57A203;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 196px;
+    padding-right: 24px;
+}
+
+section {
+    width: 83%;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.card img {
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.card p {
+    font-weight: 500;
+}
+
+.col {
+    margin-bottom: 48px;
+    width: 33%;
+    padding-right: 12px;
+    padding-left: 12px;
+
+}
+
+.nav-list {
+    width: 336px;
+    margin: 0 auto;
+}
+
+.nav-list a {
+    width: 40px;
+    padding: 8px;
+    text-align: center;
+}
+
+.adcontent {
+    padding-top: 48px;
+}
+
+.ad {
+    background-color: #E8FEC5;
+    padding: 32px;
+}
+
+.ad p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-right: 24px;
+}
+
+.ad a {
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.black {
+    background-color: #212529;
+    color: #FFFFFF;
+}
+
+.black:hover {
+    background-color: #495057;
+}
+
+footer {
+    background-color: #F8F9FA;
+
+}
+
+.footer {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 64px 0px;
+}
+
+.Copyright {
+    text-align: center;
+    color: #6C757D;
+    font-weight: 400;
+    font-size: 14px;
+    border-top: 1px solid #DEE2E6;
+    padding-top: 32px;
+}
